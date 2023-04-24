@@ -38,7 +38,7 @@ jobs:
           java-version: '17'
           distribution: 'zulu'
       - name: Build with Maven
-        run: cd GHActionsDemo && mvn --batch-mode --update-snapshots package
+        run: cd JZ-CI-Demo && mvn --batch-mode --update-snapshots package
 
       - name: Publish Test Report
         if: ${{ always() }}
