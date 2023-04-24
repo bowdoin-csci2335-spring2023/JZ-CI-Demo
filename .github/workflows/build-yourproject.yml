@@ -10,9 +10,10 @@ on:
       - main
       - development
 
+
 jobs:
   Demo-GH-Actions:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
